@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.carte {
+  max-width: 760px;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.etiquette {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.description {
+  line-height: 1.6;
+}
+
+.bloc-nom {
+  margin: 24px 0;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.bloc-nom span {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+ul {
+  line-height: 1.8;
+}
+
+.note {
+  margin-top: 24px;
+  font-weight: bold;
+}
